@@ -52,25 +52,5 @@ export default Menu
 
 
 
-// import Image from "next/image"
 
-// const HeroSection = () => {
-//   return (
-//     <div>
 
-//     <div className="w-[1920px] h-[410px] relative">
-    
-//           <div className="w-[225px] h-[56px] mt-[198px] ml-[850px] text-[#FAFAFA] bg-red-600 flex items-center">
-//           Our Menu
-//           </div>
-        
-//         <Image src="/hero.jpeg" alt="hero image" fill={true}
-//         objectFit="cover" 
-//         />
-//     </div>
-
-// </div>
-//   )
-// }
-
-// export default HeroSection
