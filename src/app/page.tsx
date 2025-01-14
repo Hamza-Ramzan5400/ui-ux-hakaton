@@ -4,6 +4,7 @@ import Category from "./components/Category";
 import Cheef from "./components/Cheef";
 import Choose from "./components/Choose";
 import Clients from "./components/Clients";
+import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Menu from "./components/Menu";
 import RestaurantProcess from "./components/RestaurantProcess";
@@ -14,6 +15,7 @@ import Testimonials from "./components/Testimonials";
 export default function Home() {
   return (
    <div>
+    <Header/>
     <HeroSection/>
     <Aboutus/>
     <Category/>

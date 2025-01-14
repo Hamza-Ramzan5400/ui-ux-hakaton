@@ -1,4 +1,5 @@
-import { Calendar } from "lucide-react";
+import { Calendar,  } from "lucide-react";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -12,10 +13,10 @@ const Header = () => {
           <ul className="flex items-center gap-5">
             <li className="text-yellow-500  font-normal leading-6 ">Home</li>
             <li className="text-white hover:text-yellow-600 font-normal leading-6 ">
-              Menu
+              <Link href="/Menu">Menu</Link>
             </li>
             <li className="text-white hover:text-yellow-600 font-normal leading-6 ">
-              Blog
+            <Link href="/Blog" >Blog</Link>
             </li>
             <li className="text-white hover:text-yellow-600 font-normal leading-6 ">
               Pages
@@ -24,7 +25,7 @@ const Header = () => {
               About
             </li>
             <li className="text-white hover:text-yellow-600 font-normal leading-6 ">
-              Shop
+              <Link href="/Shop">Shop</Link>
             </li>
             <li className="text-white hover:text-yellow-600 font-normal leading-6 ">
               Contact

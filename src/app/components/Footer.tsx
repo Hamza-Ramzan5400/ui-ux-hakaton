@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-[1920px] bg-black">
-      <div className="w-[1170px] h-[142px] ml-[350px] -mb-15 border-spacing-1 border-b border-amber-500 ">
+    <div className="max-w-full mx-auto bg-black">
+      <div className="max-w-full mx-auto h-[142px] ml-[30px] -mb-15 border-spacing-1 border-b border-amber-500 ">
         <div className="flex ">
           {/* ========================left side=============== */}
           <div>
@@ -42,7 +42,7 @@ const Footer = () => {
 
       <div className="  flex items-center -mt-48 ">
         {/* ===================About========================= */}
-        <div className="w-[312px] h-[95px] ml-[400px] ">
+        <div className="max-w-[312px]  h-[95px] ml-[50px] ">
           <p className="font-bold text-[24px] leading-[32px] text-[#FFFFFF]">
             About Us
           </p>
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
           {/* ============================useful links===================== */}
-        <div className="w-[143px] h-[367px] ml-[74px] mt-[260px] flex flex-col items-center">
+        <div className="w-[143px] h-[367px] ml-[75px]  mt-[260px] flex flex-col items-center ">
           <p className="font-bold text-[24px] leading-[32px] text-white">
             Useful Links
           </p>
@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </div>
             {/* =============================Recent Post=========================== */}
-        <div className="w-[143px] h-[367px] ml-[74px] mt-[260px] flex flex-col items-center ">
+        <div className="w-[143px] h-[367px] ml-[174px] mt-[260px] flex flex-col items-center ">
           <p className="font-bold text-[24px] leading-[32px] text-white">
             Recent Post
           </p>
@@ -184,8 +184,8 @@ const Footer = () => {
         </div>
       </div>
              {/* ====================last footer============= */}
-      <div className="w-[1920px] h-[99px] bg-[#4F4F4F] flex items-center">
-        <div className="w-[384px] h-[24px] ml-[300px] ">
+      <div className="max-w-full mx-auto h-[99px]  bg-[#4F4F4F] flex items-center">
+        <div className=" ml-[150px] ">
           <p className="font-bold text-base leading-6 text-white">
             Copyright © 2024 by{" "}
             <span className="text-[#ff9f0d] font-bold">Ha</span>mza. All Rights
@@ -194,18 +194,18 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="w-[240px] h-[34px] ml-[700px] gap-5 flex">
-          <div className="w-[10px] h-[18px] ">
-            <Facebook className="text-[#FF9F0D] font-bold" />
+        <div className="w-[240px] h-[34px] ml-[350px] gap-5 flex ">
+          <div className="w-[36px] h-[34px] bg-white flex items-center justify-center">
+            <Facebook className="  text-[#FF9F0D] font-bold" />
           </div>
-          <div className="w-[16px] h-[18px] ">
-            <Twitter className="text-[#FF9F0D] font-bold" />
+          <div className="w-[36px] h-[34px] bg-white flex items-center justify-center ">
+            <Twitter className="hover:text-[#FF9F0D] font-bold" />
           </div>
-          <div className="w-[14px] h-[18px] ">
-            <Instagram className="text-[#FF9F0D] font-bold" />
+          <div className="w-[36px] h-[34px] bg-white flex items-center justify-center ">
+            <Instagram className="hover:text-[#FF9F0D] font-bold" />
           </div>
-          <div className="w-[18px] h-[18px] ">
-            <Youtube className="text-[#FF9F0D] font-bold" />
+          <div className="w-[36px] h-[34px] bg-white flex items-center justify-center ">
+            <Youtube className="hover:text-[#FF9F0D] font-bold" />
           </div>
         </div>
       </div>
